@@ -15,7 +15,7 @@ app.add_middleware(
     CORSMiddleware,
     allow_origins=[
         "http://localhost:5173",
-        "https://airbnb-frontend.vercel.app"
+        "https://airbnb-frontend-orcin-sigma.vercel.app"
     ],
     allow_credentials=True,
     allow_methods=["*"],
